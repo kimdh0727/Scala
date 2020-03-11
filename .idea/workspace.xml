@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41b705bd-f2c4-4913-a237-57589467c878" name="Default Changelist" comment="" />
+    <list default="true" id="2da4af81-e5eb-46b4-a68f-c3d2c4bb6b56" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,33 +13,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Class" />
+        <option value="Class" />
         <option value="Package Object" />
-        <option value="Scala Object" />
       </list>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1YKKDW2YfhqWkXBXOug6cyfhMl0" />
+  <component name="ProjectId" id="1XxtBisDUQaTlBReeOsiReJLKFo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ScalaCousera/patmat" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Application.Playground">
-    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClasses" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="ScalaPlayground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.ScalaPlayground" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="playground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
+    <configuration name="Spiral (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.Spiral" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="playground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
+    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.ScalaPlayground.Spiral" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="playground.ScalaPlayground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackagingAndImports" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.PackagingAndImports" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.main" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="playground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.Playground" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.test" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Playground" />
-        <item itemvalue="Application.CaseClasses" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.Generics" />
-        <item itemvalue="Application.PackagingAndImports" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Spiral (1)" />
+        <item itemvalue="Application.Spiral" />
+        <item itemvalue="Application.ScalaPlayground" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -114,66 +114,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41b705bd-f2c4-4913-a237-57589467c878" name="Default Changelist" comment="" />
-      <created>1582685726878</created>
+      <changelist id="2da4af81-e5eb-46b4-a68f-c3d2c4bb6b56" name="Default Changelist" comment="" />
+      <created>1581999439830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582685726878</updated>
+      <updated>1581999439830</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="378" width="816" height="730" key="#Intentions" timestamp="1583334006192">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="2912" y="372" key="#OOBasics" timestamp="1582263764792">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="378" width="816" height="730" key="#Intentions/0.0.2560.1440@0.0.2560.1440" timestamp="1583334006192" />
-    <state x="1650" y="478" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582868221373">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="2912" y="372" key="#OOBasics/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582263764792" />
+    <state x="3463" y="257" key="#Spiral_(1)" timestamp="1583752422455">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1650" y="478" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582868221373" />
-    <state x="1725" y="421" key="#com.intellij.ide.util.MemberChooser" timestamp="1583334533429">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3463" y="257" key="#Spiral_(1)/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583752422455" />
+    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583752550105">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1725" y="421" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1583334533429" />
-    <state x="1650" y="470" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583425370733">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583752550105" />
+    <state x="3592" y="569" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583719101242">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1650" y="470" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583425370733" />
-    <state x="1700" y="475" key="FileChooserDialogImpl" timestamp="1583759232169">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3592" y="569" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583719101242" />
+    <state x="3520" y="426" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583718754250">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1700" y="475" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1583759232169" />
-    <state width="1236" height="383" key="GridCell.Tab.0.bottom" timestamp="1583510616416">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3520" y="426" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583718754250" />
+    <state x="3620" y="441" key="FileChooserDialogImpl" timestamp="1583817571402">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="383" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583510616416" />
-    <state width="1236" height="383" key="GridCell.Tab.0.center" timestamp="1583510616416">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
+    <state width="1222" height="394" key="GridCell.Tab.0.bottom" timestamp="1583830689697">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="383" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583510616416" />
-    <state width="1236" height="383" key="GridCell.Tab.0.left" timestamp="1583510616416">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1222" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583830689697" />
+    <state width="1222" height="394" key="GridCell.Tab.0.center" timestamp="1583830689697">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="383" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583510616416" />
-    <state width="1236" height="383" key="GridCell.Tab.0.right" timestamp="1583510616416">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1222" height="394" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583830689697" />
+    <state width="1222" height="394" key="GridCell.Tab.0.left" timestamp="1583830689697">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="383" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583510616416" />
-    <state x="781" y="362" key="SettingsEditor" timestamp="1583759209520">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1222" height="394" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583830689697" />
+    <state width="1222" height="394" key="GridCell.Tab.0.right" timestamp="1583830689697">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="362" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1583759209520" />
-    <state x="977" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1583759167134">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1222" height="394" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583830689697" />
+    <state x="3334" y="316" width="1141" height="883" key="SettingsEditor" timestamp="1583720894538">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="977" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583759167134" />
-    <state x="1299" y="447" key="new project wizard" timestamp="1583234850378">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3334" y="316" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583720894538" />
+    <state x="3252" y="606" key="com.intellij.ide.util.TipDialog" timestamp="1583798378857">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1299" y="447" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1583234850378" />
-    <state x="1583" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1583338782683">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="3252" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583798378857" />
+    <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582094153064">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="1583" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1583338782683" />
+    <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582094153064" />
+    <state x="2863" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1582267385917">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2863" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582267385917" />
   </component>
 </project>
