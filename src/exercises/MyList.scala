@@ -38,7 +38,7 @@ abstract class MyList[+A] {
 
   // higher-order functions
   def map[B](transformer: A => B): MyList[B]
-  def filter(predicate: A => Boolean): MyList[A]
+  def withFilter(predicate: A => Boolean): MyList[A]
   def flatMap[B](transformer: A => MyList[B]): MyList[B]
 
   // concatenation
@@ -77,7 +77,7 @@ case object Empty extends MyList[Nothing] {
   def printElements: String = ""
 
   def map[B](transformer: Nothing => B): MyList[B] = Empty
-  def filter(predicate: Nothing => Boolean): MyList[Nothing] = Empty
+  def withFilter(predicate: Nothing => Boolean): MyList[Nothing] = Empty
   def flatMap[B](transformer: Nothing => MyList[B]): MyList[B] = Empty
 
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
@@ -112,9 +112,9 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
      = new Cons(2, Empty)
      = [2]
    */
-  def filter(predicate: A => Boolean): MyList[A] =
-    if (predicate(h)) Cons(h, t.filter(predicate))
-    else t.filter(predicate)
+  def withFilter(predicate: A => Boolean): MyList[A] =
+    if (predicate(h)) Cons(h, t.withFilter(predicate))
+    else t.withFilter(predicate)
   /*
     [1, 2, 3].flatMap(n => [n, n + 1])
       = (1 => [1, 2]) ++ [2, 3].flatMap(n => [n, n + 1])
@@ -163,7 +163,7 @@ object ListTest extends App {
   println(listOfStrings)
 
   println(listOfIntegers.map(_ * 2))
-  listOfIntegers.filter(_ % 2 == 0)
+  listOfIntegers.withFilter(_ % 2 == 0)
   listOfIntegers.flatMap(element => Cons(element, Cons(element + 1, Empty)))
 
   println(listOfIntegers ++ anotherListOfIntegers)
@@ -174,10 +174,9 @@ object ListTest extends App {
 
   // for comprehension
   val combinations = for {
-    n <- listOfIntegers //if (n % 2 == 0)
+    n <- listOfIntegers if (n % 2 == 0)
     string <- listOfStrings
   } yield n + "-" + string
   println(combinations)
-  for (n <- listOfStrings) println(n)
-  listOfStrings.map(println)
+
 }
