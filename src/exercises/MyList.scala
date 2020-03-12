@@ -179,4 +179,8 @@ object ListTest extends App {
   } yield n + "-" + string
   println(combinations)
 
+  for {
+    string <- listOfStrings
+  } println(string)
+
 }
