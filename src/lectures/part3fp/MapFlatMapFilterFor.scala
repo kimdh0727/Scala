@@ -63,19 +63,4 @@ object MapFlatMapFilterFor extends App {
    *  2.  A small collection of at most ONE element - Maybe[+T]
    *      - map, flatMap filter
    */
-
-  def lessThan30(i: Int): Boolean = {
-    println(s"\n$i less than 30?")
-    i < 30
-  }
-
-  def moreThan20(i: Int): Boolean = {
-    println(s"$i more than 20?")
-    i > 20
-  }
-
-  val a = List(1, 25, 40, 5, 23)
-  val q0 = a.withFilter(lessThan30)
-  val q1 = q0.withFilter(moreThan20)
-  for (r <- q1) println(s"$r")
 }

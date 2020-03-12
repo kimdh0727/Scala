@@ -2,6 +2,10 @@ package exercises
 
 abstract class Maybe[+T] {
 
+  /**
+   *  2.  A small collection of at most ONE element - Maybe[+T]
+   *      - map, flatMap filter
+   */
   def map[B](f: T => B): Maybe[B]
   def flatMap[B](f: T => Maybe[B]): Maybe[B]
   def filter(p: T => Boolean): Maybe[T]
@@ -29,9 +33,4 @@ object MaybeTest extends App {
   println(just3.map(_ * 2))
   println(just3.flatMap(x => Just(x % 2 == 0)))
   println(just3.filter(_ % 2 == 0))
-
-  for (
-    n <- just3
-  ) yield n
-
 }
