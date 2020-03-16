@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da4af81-e5eb-46b4-a68f-c3d2c4bb6b56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Frog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Philosophical.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Just$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Just$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Just.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Just.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Maybe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/Maybe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeNot$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeNot$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/exercises/MaybeTest$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/MapFlatMapFilterFor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/MapFlatMapFilterFor$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/MapFlatMapFilterFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/MapFlatMapFilterFor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$ArrayElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$LineElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$UniformElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Philosophical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,51 +43,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Playground">
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
-      <module name="rock-the-jvm-scala-for-beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapFlatMapFilterFor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.MapFlatMapFilterFor" />
-      <module name="rock-the-jvm-scala-for-beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part3fp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaybeTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.MaybeTest" />
-      <module name="rock-the-jvm-scala-beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.test (2)">
     <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="playground.Playground" />
       <module name="rock-the-jvm-scala-for-beginners" />
@@ -125,15 +74,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="rock-the-jvm-scala-for-beginners" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (2)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="bobsdelights.test" />
+      <module name="rock-the-jvm-scala-for-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bobsdelights.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="bobsrockets.fleets.test" />
+      <module name="rock-the-jvm-scala-for-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bobsrockets.fleets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test (2)" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Playground" />
         <item itemvalue="Application.Spiral" />
-        <item itemvalue="Application.MapFlatMapFilterFor" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.MaybeTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="ignorePerformance" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -165,10 +150,10 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3463" y="257" key="#Spiral_(1)/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583752422455" />
-    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583752550105">
+    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584319886936">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583752550105" />
+    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584319886936" />
     <state x="3592" y="569" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583719101242">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
@@ -186,25 +171,25 @@
     </state>
     <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1583939706236" />
-    <state width="1222" height="409" key="GridCell.Tab.0.bottom" timestamp="1584090552960">
+    <state width="1222" height="409" key="GridCell.Tab.0.bottom" timestamp="1584343154937">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584090552960" />
+    <state width="1222" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
     <state width="1224" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.center" timestamp="1584090552959">
+    <state width="1222" height="409" key="GridCell.Tab.0.center" timestamp="1584343154937">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584090552959" />
+    <state width="1222" height="409" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
     <state width="1224" height="402" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.left" timestamp="1584090552959">
+    <state width="1222" height="409" key="GridCell.Tab.0.left" timestamp="1584343154937">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584090552959" />
+    <state width="1222" height="409" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
     <state width="1224" height="402" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.right" timestamp="1584090552959">
+    <state width="1222" height="409" key="GridCell.Tab.0.right" timestamp="1584343154937">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584090552959" />
+    <state width="1222" height="409" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
     <state width="1224" height="402" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
     <state x="2865" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1584059946023">
       <screen x="2560" y="0" width="2560" height="1400" />
@@ -216,6 +201,10 @@
     </state>
     <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584317008764" />
     <state x="692" y="623" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583936007738" />
+    <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584318352749">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584318352749" />
     <state x="0" y="421" key="new project wizard" timestamp="1583939194422">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
