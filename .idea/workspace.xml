@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da4af81-e5eb-46b4-a68f-c3d2c4bb6b56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Frog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Philosophical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruits$Apple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruits$Orange$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruits$Pear$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/Fruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/bobsdelights/test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,9 +47,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.test (2)">
+  <component name="RunManager" selected="Application.Playground">
     <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="playground.Playground" />
       <module name="rock-the-jvm-scala-for-beginners" />
@@ -109,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Playground" />
         <item itemvalue="Application.test (2)" />
         <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Playground" />
         <item itemvalue="Application.Spiral" />
       </list>
     </recent_temporary>
@@ -171,43 +173,44 @@
     </state>
     <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1583939706236" />
-    <state width="1222" height="409" key="GridCell.Tab.0.bottom" timestamp="1584343154937">
+    <state width="1222" height="409" key="GridCell.Tab.0.bottom" timestamp="1584416868206">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
+    <state width="1222" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416868206" />
     <state width="1224" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.center" timestamp="1584343154937">
+    <state width="1222" height="409" key="GridCell.Tab.0.center" timestamp="1584416868206">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
+    <state width="1222" height="409" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416868206" />
     <state width="1224" height="402" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.left" timestamp="1584343154937">
+    <state width="1222" height="409" key="GridCell.Tab.0.left" timestamp="1584416868206">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
+    <state width="1222" height="409" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416868206" />
     <state width="1224" height="402" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="409" key="GridCell.Tab.0.right" timestamp="1584343154937">
+    <state width="1222" height="409" key="GridCell.Tab.0.right" timestamp="1584416868206">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="409" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584343154937" />
+    <state width="1222" height="409" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416868206" />
     <state width="1224" height="402" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state x="2865" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1584059946023">
+    <state x="2865" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1584416800604">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="2865" y="180" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584059946023" />
+    <state x="2865" y="180" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416800604" />
     <state x="305" y="185" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1583939712396" />
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog" timestamp="1584317008764">
+    <state x="692" y="606" key="com.intellij.ide.util.TipDialog" timestamp="1584403861195">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584317008764" />
+    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584403861195" />
     <state x="692" y="623" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583936007738" />
     <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584318352749">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584318352749" />
-    <state x="0" y="421" key="new project wizard" timestamp="1583939194422">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="2560" y="409" key="new project wizard" timestamp="1584416865914">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
+    <state x="2560" y="409" key="new project wizard/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416865914" />
     <state x="0" y="421" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1583939194422" />
     <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582094153064">
       <screen x="2560" y="0" width="2560" height="1400" />
