@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da4af81-e5eb-46b4-a68f-c3d2c4bb6b56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/TuplesAndMaps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Adult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Adult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Dog$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Dog$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part2oop/inheritanceAndTraits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$K.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/Maybe.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Maybe.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part2oop/inheritanceAndTraits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part2oop/InheritanceAndTraits.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,35 +181,35 @@
     </state>
     <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1583939706236" />
-    <state width="1222" height="405" key="GridCell.Tab.0.bottom" timestamp="1584521679175">
+    <state width="1222" height="405" key="GridCell.Tab.0.bottom" timestamp="1584522115273">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584521679175" />
+    <state width="1222" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584522115273" />
     <state width="1224" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="405" key="GridCell.Tab.0.center" timestamp="1584521679175">
+    <state width="1222" height="405" key="GridCell.Tab.0.center" timestamp="1584522115273">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584521679175" />
+    <state width="1222" height="405" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584522115273" />
     <state width="1224" height="402" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="405" key="GridCell.Tab.0.left" timestamp="1584521679175">
+    <state width="1222" height="405" key="GridCell.Tab.0.left" timestamp="1584522115273">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584521679175" />
+    <state width="1222" height="405" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584522115273" />
     <state width="1224" height="402" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
-    <state width="1222" height="405" key="GridCell.Tab.0.right" timestamp="1584521679175">
+    <state width="1222" height="405" key="GridCell.Tab.0.right" timestamp="1584522115273">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584521679175" />
+    <state width="1222" height="405" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584522115273" />
     <state width="1224" height="402" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583940940439" />
     <state x="2865" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1584416800604">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2865" y="180" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416800604" />
     <state x="305" y="185" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1583939712396" />
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog" timestamp="1584403861195">
+    <state x="692" y="606" key="com.intellij.ide.util.TipDialog" timestamp="1584574490911">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584403861195" />
+    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584574490911" />
     <state x="692" y="623" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583936007738" />
     <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584318352749">
       <screen x="2560" y="0" width="2560" height="1400" />
