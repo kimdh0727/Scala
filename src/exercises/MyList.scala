@@ -2,6 +2,8 @@ package exercises
 
 import lectures.part2oop.Generics.MyList
 
+import scala.annotation.tailrec
+
 abstract class MyList[+A] {
 
   /*
@@ -59,14 +61,10 @@ abstract class MyList[+A] {
    *    [1, 2, 3].fold(0)(x + y) = 6
    */
   def foreach(f: A => Unit): Unit
-  def sort(f: (A, A) => Int): MyList[A]
+  def sort(compare: (A, A) => Int): MyList[A]
+  def zipWith[B, C](list: MyList[B], zip: (A, B) => C): MyList[C]
+  def fold[B](start: B)(f: (B, A) => B): B
 
-  /**
-   *  MyList supports for comprehension
-   *  - map(f: A => B) => MyList[B]
-   *  - filter(p: A => Boolean) => MyList[A]
-   *  - flatMap(f: A => MyList[B]) => MyList[B]
-   */
 }
 
 case object Empty extends MyList[Nothing] {
@@ -83,7 +81,11 @@ case object Empty extends MyList[Nothing] {
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
 
   def foreach(f: Nothing => Unit): Unit = ()
-  def sort(f: (Nothing, Nothing) => Int): MyList[Nothing] = Empty
+  def sort(compare: (Nothing, Nothing) => Int): MyList[Nothing] = Empty
+  def zipWith[B, C](list: MyList[B], zip: (Nothing, B) => C): MyList[Nothing] =
+    if (!list.isEmpty) throw new RuntimeException("Lists do not have the same length")
+    else Empty
+  def fold[B](start: B)(f: (B, Nothing) => B): B = start
 }
 
 case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
@@ -140,22 +142,36 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     f(h)
     tail.foreach(f)
   }
-  def sort(f: (A, A) => Int): MyList[A] = {
+  def sort(compare: (A, A) => Int): MyList[A] = {
 
-    def sweep(x: A, y: A): MyList[A] = {
-      if (f(x, y) > 0) Cons(x, Cons(y, Empty))
-      else Cons(y, Cons(x, Empty))
+    def insert(x: A, sortedList: MyList[A]): MyList[A] = {
+      if (sortedList.isEmpty) Cons(x, Empty)
+      else if (compare(x, sortedList.head) <= 0) Cons(x, sortedList)
+      else Cons(sortedList.head, insert(x, sortedList.tail))
     }
 
-    if (t.isEmpty) this
-    else sweep(h, t.head) ++ tail.sort(f)
+    val sortedTail = t.sort(compare)
+    insert(h, sortedTail)
   }
+  def zipWith[B, C](list: MyList[B], zip: (A, B) => C): MyList[C] = {
+    if (list.isEmpty) throw new RuntimeException("Lists do not have the same length")
+    else Cons(zip(h, list.head), t.zipWith(list.tail, zip))
+  }
+  /*
+      [1, 2, 3].fold(0)(+)
+      =  [2, 3].fold(1)(+)
+      =  [3].fold(3)(+)
+      =  [].fold(6)(+)
+      =  6
+   */
+  def fold[B](start: B)(f: (B, A) => B): B =
+    t.fold(f(start, h))(f)
 }
 
 object ListTest extends App {
   val listOfIntegers: MyList[Int] = Cons(1, Cons(2, Cons(3, Empty)))
   val cloneListOfIntegers: MyList[Int] = Cons(1, Cons(2, Cons(3, Empty)))
-  val anotherListOfIntegers: MyList[Int] = Cons(1, Cons(4, Cons(5, Empty)))
+  val anotherListOfIntegers: MyList[Int] = Cons(4, Cons(5, Empty))
   val listOfStrings: MyList[String] = Cons("Hello", Cons("Scala", Empty))
   val a = List(1,2)
 
@@ -171,10 +187,20 @@ object ListTest extends App {
   println(cloneListOfIntegers == listOfIntegers)
 
   listOfIntegers.foreach(println)
+  println(listOfIntegers.sort((x, y) => y - x))
+  println(anotherListOfIntegers.zipWith[String, String](listOfStrings, _ + "-" + _))
+  println(listOfIntegers.fold(0)(_ + _))
+
+  /**
+   *  MyList supports for comprehension
+   *  - map(f: A => B) => MyList[B]
+   *  - filter(p: A => Boolean) => MyList[A]
+   *  - flatMap(f: A => MyList[B]) => MyList[B]
+   */
 
   // for comprehension
   val combinations = for {
-    n <- listOfIntegers if (n % 2 == 0)
+    n <- listOfIntegers if (n % 2 == 1)
     string <- listOfStrings
   } yield n + "-" + string
   println(combinations)

@@ -6,6 +6,7 @@ object Sequences extends App {
 
   // Seq
   val aSequence = Seq(1, 3, 2, 4)
+  println(aSequence)
   println(aSequence.reverse)
   println(aSequence(2))
   println(aSequence ++ Seq(5, 6, 7))
@@ -65,4 +66,25 @@ object Sequences extends App {
   // depth of the tree is small
   // needs to replace an entire 32-element chunk
   println(getWriteTime(numbersVector))
+
+  case class MyClass(val x : Int) extends Ordered[MyClass]{
+    def compare(that : MyClass): Int =
+      this.x - that.x
+  }
+
+  println(Seq(MyClass(2), MyClass(1)).sorted)
+
+//  import scala.util.Sorting
+//  case class Person(name:String, age:Int) extends Ordered[Person]{
+//    def compare (that: Person) =
+//      this.age - that.age
+//  }
+//  val people = Array(Person("bob", 30), Person("ann", 32), Person("carl", 19))
+//  // sort by age
+//  object AgeOrdering extends Ordering[Person]{
+//    def compare(a:Person, b:Person) = a.age compare b.age
+//  }
+//  println(Sorting.quickSort(people)(AgeOrdering))
+//  println(people.sorted.toList)
+
 }
