@@ -1,8 +1,5 @@
 package playground
 
-import playground.ScalaPlayground.Element
-import playground.Spiral.spiral
-
 object ScalaPlayground {
 
   object Element {
@@ -75,7 +72,8 @@ object ScalaPlayground {
   }
 }
 
-import Element.elem
+import ScalaPlayground.Element
+import ScalaPlayground.Element.elem
 
 object Spiral {
 
@@ -108,6 +106,8 @@ object Spiral {
     println(spiral(nSides, 0))
   }
 }
+
+import Spiral.spiral
 
 object main extends App {
   println(spiral(6, 0))
