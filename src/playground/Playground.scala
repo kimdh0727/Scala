@@ -1,124 +1,139 @@
-//package playground
-//
-//object Playground extends App {
-//
-//  def above(that: Element): Element = {
-//    val this1 = this widen that.width
-//    val that1 = that widen this.width
-//    assert(this1.width == that1.width)
-//    elem(this1.contents ++ that1.contents)
-//  }
-//
-//  private def widen(w: Int): Element =
-//    if (w <= width)
-//      this
-//    else {
-//      val left = elem(' ', (w - width) / 2, height)
-//      val right = elem(' ', w - width - left.width, height)
-//      left beside this beside right
-//    } ensuring(w <= _.width)
-//}
+package playground
 
-//package bobsdelights
-//
-//abstract class Fruit (val name: String, val color: String)
-//
-//object Fruits {
-//  object Apple extends Fruit("apple", "red")
-//  object Orange extends Fruit("orange", "orange")
-//  object Pear extends Fruit("pear", "yellowish")
-//  val menu = List(Apple, Orange, Pear)
-//}
-//
-//// easy access to Fruit
-//import bobsdelights.Fruit
-//
-//// easy access to all members of bobsdelights
-//import bobsdelights._
-//
-//// easy access to all members of Fruits
-//import bobsdelights.Fruit._
+object Element {
 
-//class Outer {
-//  class Inner {
-//    private def f() = println("f")
-//
-//    class InnerMost {
-//      f()   // OK
-//    }
-//  }
-//  (new Inner).f() // error: f is not accessible
-//}
-//
-//package p {
-//  class Super {
-//    protected def f() = println("f")
-//  }
-//  class Sub extends Super {
-//    f()   // OK
-//  }
-//  class Other {
-//    (new Super).f() // error: f is not accessible
-//  }
-//}
+  private class ArrayElement(val contents: Array[String]) extends Element
+  private class LineElement(s: String) extends Element {
+    val contents: Array[String] = Array(s)
+    override def width: Int = s.length
+    override def height: Int = 1
+  }
 
-//package bobsrockets
-//
-//package navigation {
-//  private[bobsrockets] class Navigator {
-//    protected [navigation] def useStarChart() = {}
-//    class LegOfJourney {
-//      private[Navigator] val distance = 100
-//    }
-//    private[this] var speed = 200
-//  }
-//}
-//package launch {
-////  import navigation._
-//
-//  object Vehicle {
-//    private[launch] val guide = new Navigator
-//  }
-//}
-//
-//class Rocket {
-//  import Rocket.fuel
-//  private def canGoHomeAgain = fuel > 20
-//}
-//object Rocket {
-//  private def fuel = 10
-//  def chooseStrategy(rocket: Rocket) = {
-//    if (rocket.canGoHomeAgain)
-//      goHome()
-//    else
-//      pickAStar()
-//  }
-//  def goHome() = {}
-//  def pickAStar() = {}
-//}
-//
-//// bobsdelights/package.scala
-//package object bobsdelights {
-//  def showFruit(fruit: Fruit) = {
-//    import fruit._
-//    println(name + "s are " + color)
-//  }
-//}
+  private class UniformElement(
+                                ch: Char,
+                                override val width: Int,
+                                override val height: Int
+                              ) extends Element {
+    private val line = ch.toString * width
+    def contents: Array[String] = Array.fill(height)(line)
+  }
 
-// PrintMenu.scala
-//package printmenu
-//improt bobsdelights.Fruits
-//improt bobsdelights.showFruit
-//object PrintMenu {
-//  def main(args: Array[String]) = {
-//    for (fruit <- Fruits.menu) {
-//      showFruit(fruit)
-//    }
-//  }
-//}
+  def elem(contents: Array[String]): Element =
+    new ArrayElement(contents)
 
+  def elem(chr: Char, width: Int, height: Int): Element =
+    new UniformElement(chr, width, height)
 
+  def elem(line: String): Element =
+    new LineElement(line)
+}
 
-object test extends App {
+import Element.elem
 
+abstract class Element {
+    def contents: Array[String]
+
+    def width: Int = if (height == 0) 0 else contents(0).length
+    def height: Int = contents.length
+
+    def above(that: Element): Element = {
+      val this1 = this widen that.width
+      val that1 = that widen this.width
+      elem(this1.contents ++ that1.contents)
+    }
+
+    def beside(that: Element): Element = {
+      val this1 = this heighten that.height
+      val that1 = that heighten this.height
+      elem(
+        for (
+          (line1, line2) <- this1.contents zip that1.contents
+        ) yield line1 + line2
+      )
+    }
+
+    def widen(w: Int): Element =
+      if (w <= width) this
+      else {
+        val left = elem(' ', (w - width) / 2, height)
+        val right = elem(' ', w - width - left.width, height)
+        left beside this beside right
+      }
+
+    def heighten(h: Int): Element =
+      if (h <= height) this
+      else {
+        val top = elem(' ', width, (h - height) / 2)
+        val bot = elem(' ', width, h - height - top.height)
+        top above this above bot
+      }
+
+    override def toString: String = contents mkString "\n"
+  }
+
+sealed abstract class Expr
+case class Var(name: String) extends Expr
+case class Number(num: Double) extends Expr
+case class UnOp(operator: String, arg: Expr) extends Expr
+case class BinOp(operator: String, left: Expr, right: Expr) extends Expr
+
+class ExprFormatter {
+  private val opGroups =
+    Array(
+      Set("|", "||"),
+      Set("&", "&&"),
+      Set("^"),
+      Set("==", "!="),
+      Set("<", "<=", ">", ">="),
+      Set("+", "-"),
+      Set("*", "&")
+    )
+  private val precedence = {
+    val assocs =
+      for {
+        i <- 0 until opGroups.length
+        op <- opGroups(i)
+      } yield op -> i
+    assocs.toMap
+  }
+  private val unaryPrecedence = opGroups.length
+  private val fractionPrecedence = -1
+  private def format(e: Expr, enclPrec: Int): Element =
+    e match {
+      case Var(name) =>
+        elem(name)
+      case Number(num) =>
+        def stripDot(s: String) =
+          if (s endsWith ".0") s.substring(0, s.length - 2)
+          else s
+        elem(stripDot(num.toString))
+      case UnOp(op, arg) =>
+        elem(op) beside format(arg, unaryPrecedence)
+      case BinOp("/", left, right) =>
+        val top = format(left, fractionPrecedence)
+        val bot = format(right, fractionPrecedence)
+        val line = elem('-', top.width max bot.width, 1)
+        val frac = top above line above bot
+        if (enclPrec != fractionPrecedence) frac
+        else elem(" ") beside frac beside elem(" ")
+      case BinOp(op, left, right) =>
+        val opPrec = precedence(op)
+        val l = format(left, opPrec)
+        val r = format(right, opPrec)
+        val oper = l beside elem(" " + op + " ") beside r
+        if (enclPrec <= opPrec) oper
+        else elem("(") beside oper beside elem(")")
+    }
+  def format(e: Expr): Element = format(e, 0)
+}
+
+object Express extends App {
+  val f = new ExprFormatter
+  val e1 = BinOp("*", BinOp("/", Number(1), Number(2)),
+    BinOp("+", Var("x"), Number(1)))
+  val e2 = BinOp("+", BinOp("/", Var("x"), Number(2)),
+    BinOp("/", Number(1.5), Var("x")))
+  val e3 = BinOp("/", e1, e2)
+  def show(e: Expr) = println(f.format(e)+ "\n\n")
+  for (e <- Array(e1, e2, e3)) show(e)
 }
