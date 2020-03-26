@@ -68,24 +68,24 @@ object Options extends App {
   val host = config.get("host")
   val port = config.get("port")
   /**
-   * if (h != null)
-   * if (p != null)
-   * return Connection.apply(h, p)
+   *  if (h != null)
+   *    if (p != null)
+   *      return Connection.apply(h, p)
    *
-   * return null
+   *  return null
    */
   val connection = host.flatMap(h => port.flatMap(p => Connection.apply(h, p)))
   /**
-   * if (c != null)
-   * return c.connect
-   * return null
+   *  if (c != null)
+   *    return c.connect
+   *  return null
    */
   val connectionStatus = connection.map(c => c.connect)
   // if (connectionStatus == null) println(None) else println(Some(connectionStatus.get))
   println(connectionStatus)
   /**
-   * if (status != null)
-   * println(status)
+   *  if (status != null)
+   *    println(status)
    */
   connectionStatus.foreach(println)
 
