@@ -5,8 +5,9 @@
       <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/Options.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.HandlingFailure">
+  <component name="RunManager" selected="Application.Playground">
     <configuration name="Express" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="playground.Express" />
       <module name="rock-the-jvm-scala-for-beginners" />
@@ -83,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.Spiral" />
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.Playground" />
       <module name="rock-the-jvm-scala-for-beginners" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Playground" />
+        <item itemvalue="Application.Express" />
         <item itemvalue="Application.HandlingFailure" />
         <item itemvalue="Application.Options" />
-        <item itemvalue="Application.Express" />
         <item itemvalue="Application.playground" />
-        <item itemvalue="Application.Spiral" />
       </list>
     </recent_temporary>
   </component>
@@ -195,32 +196,32 @@
     </state>
     <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1584971366796" />
-    <state width="1222" height="264" key="GridCell.Tab.0.bottom" timestamp="1585125896513">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1222" height="264" key="GridCell.Tab.0.bottom" timestamp="1585293468257">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
-    <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585110698786" />
+    <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
     <state width="1222" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
     <state width="1222" height="268" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163116" />
-    <state width="1222" height="264" key="GridCell.Tab.0.center" timestamp="1585125896513">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1222" height="264" key="GridCell.Tab.0.center" timestamp="1585293468256">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
-    <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585110698786" />
+    <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
     <state width="1222" height="264" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
     <state width="1222" height="268" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163116" />
-    <state width="1222" height="264" key="GridCell.Tab.0.left" timestamp="1585125896513">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1222" height="264" key="GridCell.Tab.0.left" timestamp="1585293468256">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
-    <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585110698786" />
+    <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
     <state width="1222" height="264" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689520" />
     <state width="1222" height="268" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163115" />
-    <state width="1222" height="264" key="GridCell.Tab.0.right" timestamp="1585125896513">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1222" height="264" key="GridCell.Tab.0.right" timestamp="1585293468257">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
-    <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585110698786" />
+    <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
     <state width="1222" height="264" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
     <state width="1222" height="268" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163116" />
     <state x="-2255" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1585119166936">
