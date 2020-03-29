@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aef7bedd-3758-4226-9036-283f782ae105" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Express.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/HandlingFailure$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/HandlingFailure$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/HandlingFailure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part3fp/HandlingFailure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/HandlingFailure.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectures/part3fp/Options.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3fp/Options.scala" afterDir="false" />
->>>>>>> 8213563ff0b5a71d3499c5a2ce2b0e561f91e32c
+      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,57 +195,34 @@
     </state>
     <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1584971366796" />
-<<<<<<< HEAD
-    <state width="1222" height="264" key="GridCell.Tab.0.bottom" timestamp="1585293468257">
-      <screen x="0" y="0" width="2560" height="1400" />
-=======
-    <state width="2505" height="268" key="GridCell.Tab.0.bottom" timestamp="1585203980833">
+    <state width="1222" height="399" key="GridCell.Tab.0.bottom" timestamp="1585499055230">
       <screen x="0" y="0" width="2560" height="1440" />
->>>>>>> 8213563ff0b5a71d3499c5a2ce2b0e561f91e32c
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
     <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
     <state width="1222" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-<<<<<<< HEAD
-    <state width="1222" height="268" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163116" />
-    <state width="1222" height="264" key="GridCell.Tab.0.center" timestamp="1585293468256">
-      <screen x="0" y="0" width="2560" height="1400" />
-=======
-    <state width="2505" height="268" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585203980833" />
-    <state width="2505" height="268" key="GridCell.Tab.0.center" timestamp="1585203980833">
+    <state width="1222" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
+    <state width="1222" height="399" key="GridCell.Tab.0.center" timestamp="1585499055230">
       <screen x="0" y="0" width="2560" height="1440" />
->>>>>>> 8213563ff0b5a71d3499c5a2ce2b0e561f91e32c
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
     <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
     <state width="1222" height="264" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-<<<<<<< HEAD
-    <state width="1222" height="268" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163116" />
-    <state width="1222" height="264" key="GridCell.Tab.0.left" timestamp="1585293468256">
-      <screen x="0" y="0" width="2560" height="1400" />
-=======
-    <state width="2505" height="268" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585203980833" />
-    <state width="2505" height="268" key="GridCell.Tab.0.left" timestamp="1585203980832">
+    <state width="1222" height="399" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
+    <state width="1222" height="399" key="GridCell.Tab.0.left" timestamp="1585499055230">
       <screen x="0" y="0" width="2560" height="1440" />
->>>>>>> 8213563ff0b5a71d3499c5a2ce2b0e561f91e32c
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
     <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
     <state width="1222" height="264" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689520" />
-<<<<<<< HEAD
-    <state width="1222" height="268" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584979163115" />
-    <state width="1222" height="264" key="GridCell.Tab.0.right" timestamp="1585293468257">
-      <screen x="0" y="0" width="2560" height="1400" />
-=======
-    <state width="2505" height="268" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585203980832" />
-    <state width="2505" height="268" key="GridCell.Tab.0.right" timestamp="1585203980833">
+    <state width="1222" height="399" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
+    <state width="1222" height="399" key="GridCell.Tab.0.right" timestamp="1585499055230">
       <screen x="0" y="0" width="2560" height="1440" />
->>>>>>> 8213563ff0b5a71d3499c5a2ce2b0e561f91e32c
     </state>
     <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585125896513" />
     <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
     <state width="1222" height="264" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-    <state width="2505" height="268" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585203980833" />
+    <state width="1222" height="399" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
     <state x="-2255" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1585119166936">
       <screen x="-2560" y="0" width="2560" height="1400" />
     </state>
@@ -282,16 +252,16 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582094153064" />
-    <state x="212" y="520" key="run.anything.popup" timestamp="1584275772667">
+    <state x="212" y="520" key="run.anything.popup" timestamp="1585476889875">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="212" y="520" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1584275772667" />
-    <state x="-2257" y="320" width="840" height="678" key="search.everywhere.popup" timestamp="1585122205611">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state x="212" y="520" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585476889875" />
+    <state x="303" y="329" width="840" height="698" key="search.everywhere.popup" timestamp="1585482780012">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="-2257" y="320" width="840" height="678" key="search.everywhere.popup/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585122205611" />
     <state x="2863" y="320" width="840" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584506764662" />
-    <state x="303" y="329" width="840" height="698" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1584371433859" />
+    <state x="303" y="329" width="840" height="698" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585482780012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
