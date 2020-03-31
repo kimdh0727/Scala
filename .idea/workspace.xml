@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef7bedd-3758-4226-9036-283f782ae105" name="Default Changelist" comment="">
+    <list default="true" id="40ebb810-d18d-4c26-8d28-875b1ff2a5ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lectures/part4pm/AllThePatterns.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part4pm/PatternMatching.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part4pm/PatternsEverywhere.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/playground/test.scala" beforeDir="false" />
-=======
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
->>>>>>> 181a707ba49c5f3fcccd4c0c36c83f7e73ceed90
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +19,13 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Package Object" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1XxtBisDUQaTlBReeOsiReJLKFo" />
+  <component name="ProjectId" id="1Zs6LAEw2DuKTVuw8NTyRmha6gM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,17 +34,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Playground">
-    <configuration name="Express" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.Express" />
+  <component name="RunManager" selected="Application.AllThePatterns">
+    <configuration name="AllThePatterns" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part4pm.AllThePatterns" />
       <module name="rock-the-jvm-scala-for-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="lectures.part4pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,25 +49,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlingFailure" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.HandlingFailure" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part4pm.PatternMatching" />
       <module name="rock-the-jvm-scala-for-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part3fp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Options" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.Options" />
-      <module name="rock-the-jvm-scala-for-beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part3fp.*" />
+          <option name="PATTERN" value="lectures.part4pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,42 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="playground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.playground" />
-      <module name="rock-the-jvm-scala-for-beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllThePatterns" />
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.Playground" />
-        <item itemvalue="Application.Express" />
-        <item itemvalue="Application.HandlingFailure" />
-        <item itemvalue="Application.Options" />
-        <item itemvalue="Application.playground" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ScalaProjectSettings">
-    <option name="ignorePerformance" value="true" />
-  </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\kimdh\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aef7bedd-3758-4226-9036-283f782ae105" name="Default Changelist" comment="" />
-      <created>1581999439830</created>
+      <changelist id="40ebb810-d18d-4c26-8d28-875b1ff2a5ae" name="Default Changelist" comment="" />
+      <created>1585615396061</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581999439830</updated>
+      <updated>1585615396061</updated>
     </task>
     <servers />
   </component>
@@ -150,153 +110,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="3462" y="275" key="#ListTest" timestamp="1583971595741">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3462" y="275" key="#ListTest/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583971595741" />
-    <state x="3462" y="275" key="#MapFlatMapFilterFor" timestamp="1583972332197">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3462" y="275" key="#MapFlatMapFilterFor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583972332197" />
-    <state x="2912" y="372" key="#OOBasics" timestamp="1582263764792">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="2912" y="372" key="#OOBasics/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582263764792" />
-    <state x="3463" y="257" key="#Spiral_(1)" timestamp="1583752422455">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3463" y="257" key="#Spiral_(1)/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583752422455" />
-    <state x="-1550" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585119472158">
-      <screen x="-2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="-1550" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585119472158" />
-    <state x="3570" y="447" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584579318504" />
-    <state x="3592" y="569" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583719101242">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3592" y="569" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583719101242" />
-    <state x="1287" y="691" key="#com.intellij.ide.util.MemberChooser" timestamp="1584543886546">
+    <state width="936" height="399" key="GridCell.Tab.0.bottom" timestamp="1585663644346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1287" y="691" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1584543886546" />
-    <state x="454" y="605" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583939917187">
+    <state width="936" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
+    <state width="936" height="399" key="GridCell.Tab.0.center" timestamp="1585663644346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="454" y="605" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583939917187" />
-    <state x="960" y="438" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585582078428">
+    <state width="936" height="399" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
+    <state width="936" height="399" key="GridCell.Tab.0.left" timestamp="1585663644346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="3520" y="426" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583718754250" />
-    <state x="960" y="438" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1585582078428" />
-    <state x="1373" y="100" width="1094" height="1247" key="DiffContextDialog" timestamp="1584971175236">
+    <state width="936" height="399" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
+    <state width="936" height="399" key="GridCell.Tab.0.right" timestamp="1585663644346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1373" y="100" width="1094" height="1247" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1584971175236" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1584971366796">
+    <state width="936" height="399" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
+    <state x="241" y="501" key="com.intellij.ide.util.TipDialog" timestamp="1585615403368">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="3620" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1583817571402" />
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1584971366796" />
-<<<<<<< HEAD
-    <state width="1222" height="399" key="GridCell.Tab.0.bottom" timestamp="1585499133402">
-      <screen x="0" y="0" width="2560" height="1440" />
-=======
-    <state width="1222" height="405" key="GridCell.Tab.0.bottom" timestamp="1585558876679">
-      <screen x="-2560" y="0" width="2560" height="1400" />
->>>>>>> 181a707ba49c5f3fcccd4c0c36c83f7e73ceed90
-    </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585558876679" />
-    <state width="1222" height="264" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
-    <state width="1222" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-<<<<<<< HEAD
-    <state width="1222" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585499133402" />
-    <state width="1222" height="399" key="GridCell.Tab.0.center" timestamp="1585499133402">
-      <screen x="0" y="0" width="2560" height="1440" />
-=======
-    <state width="1222" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
-    <state width="1222" height="405" key="GridCell.Tab.0.center" timestamp="1585558876679">
-      <screen x="-2560" y="0" width="2560" height="1400" />
->>>>>>> 181a707ba49c5f3fcccd4c0c36c83f7e73ceed90
-    </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585558876679" />
-    <state width="1222" height="264" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
-    <state width="1222" height="264" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-<<<<<<< HEAD
-    <state width="1222" height="399" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585499133402" />
-    <state width="1222" height="399" key="GridCell.Tab.0.left" timestamp="1585499133402">
-      <screen x="0" y="0" width="2560" height="1440" />
-=======
-    <state width="1222" height="399" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
-    <state width="1222" height="405" key="GridCell.Tab.0.left" timestamp="1585558876679">
-      <screen x="-2560" y="0" width="2560" height="1400" />
->>>>>>> 181a707ba49c5f3fcccd4c0c36c83f7e73ceed90
-    </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585558876679" />
-    <state width="1222" height="264" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468256" />
-    <state width="1222" height="264" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689520" />
-<<<<<<< HEAD
-    <state width="1222" height="399" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585499133402" />
-    <state width="1222" height="399" key="GridCell.Tab.0.right" timestamp="1585499133402">
-      <screen x="0" y="0" width="2560" height="1440" />
-=======
-    <state width="1222" height="399" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585499055230" />
-    <state width="1222" height="405" key="GridCell.Tab.0.right" timestamp="1585558876679">
-      <screen x="-2560" y="0" width="2560" height="1400" />
->>>>>>> 181a707ba49c5f3fcccd4c0c36c83f7e73ceed90
-    </state>
-    <state width="1222" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585558876679" />
-    <state width="1222" height="264" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585293468257" />
-    <state width="1222" height="264" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584606689521" />
-    <state width="1222" height="399" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585499133402" />
-    <state x="-2255" y="180" width="1141" height="883" key="SettingsEditor" timestamp="1585119166936">
-      <screen x="-2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="-2255" y="180" width="1141" height="883" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585119166936" />
-    <state x="2865" y="180" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416800604" />
-    <state x="305" y="185" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1584971838261" />
-    <state x="1096" y="616" key="VCS.ChangelistChooser" timestamp="1584971059052">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1096" y="616" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1584971059052" />
-    <state x="692" y="623" key="com.intellij.ide.util.TipDialog" timestamp="1585582104940">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585094516416" />
-    <state x="692" y="606" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584403861195" />
-    <state x="692" y="623" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1585582104940" />
-    <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584318352749">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="2929" y="307" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584318352749" />
-    <state x="210" y="433" key="new project wizard" timestamp="1585213023946">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="2560" y="409" key="new project wizard/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584416865914" />
-    <state x="210" y="433" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1585213023946" />
-    <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582094153064">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3154" y="862" width="709" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582094153064" />
-    <state x="212" y="520" key="run.anything.popup" timestamp="1585476889875">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="212" y="520" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585476889875" />
-    <state x="303" y="329" width="840" height="698" key="search.everywhere.popup" timestamp="1585482780012">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="-2257" y="320" width="840" height="678" key="search.everywhere.popup/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585122205611" />
-    <state x="2863" y="320" width="840" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1584506764662" />
-    <state x="303" y="329" width="840" height="698" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585482780012" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/playground/JavaPlayground.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="241" y="501" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1585615403368" />
   </component>
 </project>
