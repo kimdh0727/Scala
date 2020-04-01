@@ -1,6 +1,6 @@
 package lectures.part4pm
 
-class PatternsEverywhere extends App {
+object PatternsEverywhere extends App {
 
   // big idea #1
   try {
@@ -41,7 +41,7 @@ class PatternsEverywhere extends App {
   val tuple = (1, 2, 3)
   val (a, b, c) = tuple
   println(b)
-  // multiple value definitions based oin PATTERN MATCHING
+  // multiple value definitions based on PATTERN MATCHING
   // ALL THE POWER
 
   val head :: tail = list
