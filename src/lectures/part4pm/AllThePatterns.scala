@@ -92,4 +92,5 @@ object AllThePatterns extends App {
 
   println(numbersMatch)   // "a list of strings"
   // JVM trick of strings
+
 }

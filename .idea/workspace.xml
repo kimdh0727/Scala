@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="40ebb810-d18d-4c26-8d28-875b1ff2a5ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternsEverywhere$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternsEverywhere$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternsEverywhere$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternsEverywhere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternsEverywhere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part4pm/AllThePatterns.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4pm/AllThePatterns.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part4pm/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4pm/PatternMatching.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectures/part4pm/PatternsEverywhere.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4pm/PatternsEverywhere.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +33,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.PatternsEverywhere">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="AllThePatterns" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part4pm.AllThePatterns" />
       <module name="rock-the-jvm-scala-for-beginners" />
@@ -84,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.PatternMatching" />
+        <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.AllThePatterns" />
         <item itemvalue="Application.Playground" />
       </list>
@@ -118,34 +124,42 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1222" height="405" key="GridCell.Tab.0.bottom" timestamp="1585732756158">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="2505" height="395" key="GridCell.Tab.0.bottom" timestamp="1585808364976">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1222" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585732756158" />
     <state width="2505" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585717849325" />
-    <state width="936" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
-    <state width="1222" height="405" key="GridCell.Tab.0.center" timestamp="1585732756158">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="2505" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1585808364976" />
+    <state width="2505" height="395" key="GridCell.Tab.0.center" timestamp="1585808364976">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1222" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585732756158" />
     <state width="2505" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585717849325" />
-    <state width="936" height="399" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
-    <state width="1222" height="405" key="GridCell.Tab.0.left" timestamp="1585732756158">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="2505" height="395" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1585808364976" />
+    <state width="2505" height="395" key="GridCell.Tab.0.left" timestamp="1585808364976">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1222" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585732756158" />
     <state width="2505" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585717849325" />
-    <state width="936" height="399" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
-    <state width="1222" height="405" key="GridCell.Tab.0.right" timestamp="1585732756158">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="2505" height="395" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1585808364976" />
+    <state width="2505" height="395" key="GridCell.Tab.0.right" timestamp="1585808364976">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1222" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1585732756158" />
     <state width="2505" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585717849325" />
-    <state width="936" height="399" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585663644346" />
-    <state x="-2319" y="487" key="com.intellij.ide.util.TipDialog" timestamp="1585714472036">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="2505" height="395" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1585808364976" />
+    <state x="1297" y="279" key="SettingsEditor" timestamp="1585748344203">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1297" y="279" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1585748344203" />
+    <state x="241" y="501" key="com.intellij.ide.util.TipDialog" timestamp="1585793896008">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="-2319" y="487" key="com.intellij.ide.util.TipDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1585714472036" />
-    <state x="241" y="501" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1585615403368" />
+    <state x="241" y="501" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1585793896008" />
+    <state x="1492" y="339" key="run.anything.popup" timestamp="1585793911272">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1492" y="339" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585793911272" />
   </component>
 </project>

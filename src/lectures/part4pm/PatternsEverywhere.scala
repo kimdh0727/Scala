@@ -64,4 +64,5 @@ object PatternsEverywhere extends App {
     }
   }
   println(mappedList)
+
 }

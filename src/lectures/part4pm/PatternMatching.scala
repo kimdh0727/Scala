@@ -80,10 +80,6 @@ object PatternMatching extends App {
       }
       maybeShowParentheses(e1) + " * " + maybeShowParentheses(e2)
     }
-    //    case Prod(e1 @ Sum(_, _), e2 @ Sum(_, _)) => s"(${show(e1)}) * ${show(e2)}"
-    //    case Prod(e1 @ Sum(_, _), e2) => s"(${show(e1)}) * ${show(e2)}"
-    //    case Prod(e1, e2 @ Sum(_, _)) => s"${show(e1)} * (${show(e2)})"
-    //    case Prod(e1, e2) => s"${show(e1)} * ${show(e2)}"
   }
 
   println(show(Sum(Number(2), Number(3))))
@@ -91,4 +87,5 @@ object PatternMatching extends App {
   println(show(Prod(Sum(Number(2), Number(1)), Number(3))))
   println(show(Prod(Sum(Number(2), Number(1)), Sum(Number(3), Number(4)))))
   println(show(Sum(Prod(Number(2), Number(1)), Number(3))))
+
 }
