@@ -2,127 +2,210 @@ package playground
 
 object Playground extends App {
 
-  val colors = List("red", "blue", "green") // List init
-  println(colors.head)
-  println(colors.tail)
-
-  val fiveInts = new Array[Int](5)
-  println(fiveInts mkString ", ")
-
-  val fiveToOne = Array(5, 4, 3 ,2, 1)
-  println(fiveToOne mkString ", ")
-
-  fiveInts(0) = fiveToOne(4)
-  println(fiveInts mkString ", ")
-
-  import scala.collection.mutable.ListBuffer
-
-  val buf = new ListBuffer[Int]
-  buf += 1
-  buf += 2
-  println(buf)
-  3 +=: buf
-  println(buf.toList)
-
-  import scala.collection.mutable.ArrayBuffer
-
-  val buf2 = new ArrayBuffer[Int]()
-  buf2 += 12
-  buf2 += 15
-  0 +=: buf2
-  println(buf2)
-  println(buf2.length)
-  println(buf2(0))
-
-  def hasUpperCase(s: String) = s.exists(_.isUpper)
-  println(hasUpperCase("Robert Frost"))
-  println(hasUpperCase("e e cummings"))
-
-  import collection.mutable
-  val test = "See Spot run. Run, Spot. Run!"
-  val wordsArray = test.split("[ !,.]+")
-  val words = mutable.Set.empty[String]
-  for (word <- wordsArray)
-    words += word.toLowerCase
-  println(words)
-
-  val map = mutable.Map.empty[String, Int]
-  map("hello") = 1
-  map("there") = 2
-  println(map)
-  println(map("hello"))
-
-  def countWords(text: String) = {
-    val counts = mutable.Map.empty[String, Int]
-    for (rawWord <- text.split("[ ,!.]+")) {
-      val word = rawWord.toLowerCase
-      val oldCount =
-        if (counts.contains(word))
-          counts(word)
-        else
-          0
-      counts += (word -> (oldCount + 1))
+  class BankAccount {
+    private var bal: Int = 0
+    def balance: Int = bal
+    def deposit(amount: Int) = {
+      require(amount > 0)
+      bal += amount
     }
-    counts
-  }
-  println(countWords("See Spot run! Run, Spot, Run!"))
-
-  import scala.collection.immutable.{TreeSet, TreeMap}
-  val ts = TreeSet(9, 3, 1, 8, 0, 2, 7, 4, 6, 5)
-  println(ts)
-
-  val tm = TreeMap(3 -> 'x', 1 -> 'x', 4 -> 'x')
-  println(tm + (2 -> 'x'))
-
-  List(1, 2, 3)
-  Set('a', 'b', 'c')
-  Map("hi" -> 2, "there" -> 5)
-  Array(1.0, 2.0, 3.0)
-
-  val stuff = mutable.Set[Any](42)
-  stuff += "abc"
-
-  val colors2 = List("blue", "yellow", "red", "green")
-  val treeSet = TreeSet[String]() ++ colors2
-
-  println(treeSet)
-  val mutaSet = mutable.Set.empty ++ treeSet
-  val immutaSet = Set.empty ++ mutaSet
-
-  println(mutaSet)
-  println(immutaSet)
-
-  def longestWord(words: Array[String]) = {
-    var word = words(0)
-    var idx = 0
-    for (i <- 1 until words.length)
-      if (words(i).length > word.length) {
-        word = words(i)
-        idx = i
+    def withdraw(amount: Int): Boolean = {
+      if (amount > bal) false
+      else {
+        bal -= amount
+        true
       }
-    (word, idx)
+    }
   }
 
-  val longest = longestWord("The quick brown fox".split(" "))
-  println(longest)
+  val account = new BankAccount
+  account deposit 100
+  println(account withdraw 80)
+  println(account withdraw 80)
 
-  println(longest._1)
-  println(longest._2)
+  class Keyed {
+    def computeKey: Int = ??? // this will take some time
+  }
 
-  val (word, idx) = longest
-  println(word)
+  class MemoKeyed extends Keyed {
+    private var keyCache: Option[Int] = None
+    override def computeKey: Int = {
+      if (!keyCache.isDefined)
+        keyCache = Some(super.computeKey)
+      keyCache.get
+    }
+  }
 
-  val tuple1, tuple2 = longest
-  println(tuple1)
-  println(tuple2)
+//  class Time {
+//    var hour = 12
+//    var minute = 0
+//  }
 
-  var people = Set("Nancy", "Jane")
-  people += "Bob"
-  println(people)
+  class Time {
+    private[this] var h = 12
+    private[this] var m = 0
 
-  var roughlyPi = 3.0
-  roughlyPi += 0.1
-  roughlyPi += 0.04
-  println(roughlyPi)
+    def hour: Int = h
+    def hour_=(x: Int): Unit = {
+      require(0 <= x && x < 24)
+      h = x
+    }
 
+    def minute: Int = m
+    def minute_=(x: Int): Unit = {
+      require(0 <= x && x < 60)
+      m = x
+    }
+  }
+
+  class Thermometer {
+    var celsius: Float = _
+
+    def fahrenheit: Float = celsius * 9 / 5 + 32
+    def fahrenheit_= (f: Float): Unit = {
+      celsius = (f - 32) * 5 / 9
+    }
+    override def toString = fahrenheit + " F / " + celsius + " C"
+  }
+
+  val t = new Thermometer
+  t.celsius = 100
+  println(t)
+  t.fahrenheit = - 40
+  println(t)
+}
+
+abstract class Simulation {
+  type Action = () => Unit
+
+  case class WorkItem(time: Int, action: Action)
+
+  private var curtime = 0
+  def currentTime: Int = curtime
+
+  private var agenda: List[WorkItem] = List()
+
+  private def insert(ag: List[WorkItem], item: WorkItem): List[WorkItem] = {
+    if (ag.isEmpty || item.time < ag.head.time) item :: ag
+    else ag.head :: insert(ag.tail, item)
+  }
+
+  def afterDelay(delay: Int)(block: => Unit) = {
+    val item = WorkItem(currentTime + delay, () => block)
+    agenda = insert(agenda, item)
+  }
+
+  private def next() = {
+    (agenda: @unchecked) match {
+      case item :: rest =>
+        agenda = rest
+        curtime = item.time
+        item.action()
+    }
+  }
+
+  def run() = {
+    afterDelay(0) {
+      println(s"*** simulation started, time = $currentTime ***")
+    }
+    while (!agenda.isEmpty) next()
+  }
+}
+
+abstract class BasicCircuitSimulation extends Simulation {
+  def InvertDelay: Int
+  def AndGateDelay: Int
+  def OrGateDelay: Int
+
+  class Wire {
+    private var sigVal = false
+    private var actions: List[Action] = List()
+
+    def getSignal = sigVal
+
+    def setSignal(s: Boolean) =
+      if (s != sigVal) {
+        sigVal = s
+        actions foreach(_ ())
+      }
+    def addAction(a: Action) = {
+      actions = a :: actions
+      a()
+    }
+  }
+
+  def inverter(input: Wire, output: Wire): Unit = {
+    def invertAction(): Unit = {
+      val inputSig = input.getSignal
+      afterDelay(InvertDelay) {
+        output setSignal !inputSig
+      }
+    }
+    input addAction invertAction
+  }
+
+  def andGate(a1: Wire, a2: Wire, output: Wire): Unit = {
+    def andAction(): Unit = {
+      val a1Sig = a1.getSignal
+      val a2Sig = a2.getSignal
+      afterDelay(AndGateDelay) {
+        output setSignal (a1Sig & a2Sig)
+      }
+    }
+    a1 addAction andAction
+    a2 addAction andAction
+  }
+
+  def orGate(o1: Wire, o2: Wire, output: Wire): Unit = {
+    def orAction(): Unit = {
+      val o1Sig = o1.getSignal
+      val o2Sig = o2.getSignal
+      afterDelay(OrGateDelay) {
+        output setSignal (o1Sig | o2Sig)
+      }
+    }
+    o1 addAction orAction
+    o2 addAction orAction
+  }
+
+  def probe(name: String, wire: Wire): Unit = {
+    def probeAction(): Unit = {
+      println(s"$name $currentTime new-value = ${wire.getSignal}")
+    }
+    wire addAction probeAction
+  }
+}
+
+abstract class CircuitSimulations extends BasicCircuitSimulation {
+
+  def halfAdder(a: Wire, b: Wire, s: Wire, c: Wire) = {
+    val d, e = new Wire
+    orGate(a, b, d)
+    andGate(a, b, c)
+    inverter(c, e)
+    andGate(d, e, s)
+  }
+
+  def fullAdder(a: Wire, b: Wire, cin: Wire, sum: Wire, cout: Wire) = {
+    val s, c1, c2 = new Wire
+    halfAdder(a, cin, s, c1)
+    halfAdder(b, s, sum, c2)
+    orGate(c1, c2, cout)
+  }
+}
+
+object MySimulation extends CircuitSimulations with App {
+  override def InvertDelay: Int = 1
+  override def AndGateDelay: Int = 3
+  override def OrGateDelay: Int = 5
+
+  val input1, input2, sum, carry = new Wire
+  probe("sum", sum)
+  probe("carry", carry)
+
+  halfAdder(input1, input2, sum, carry)
+  input1 setSignal true
+  run()
+  input2 setSignal true
+  run()
 }
