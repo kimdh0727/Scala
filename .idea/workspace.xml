@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3007524-13e2-4e08-b5a3-0f183a3bbaa7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternMatching$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/lectures/part4pm/PatternMatching$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/BasicCircuitSimulation$Wire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/BasicCircuitSimulation$Wire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/BasicCircuitSimulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/BasicCircuitSimulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/CircuitSimulations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/CircuitSimulations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/MySimulation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/MySimulation$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/MySimulation$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/MySimulation$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part4pm/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4pm/PatternMatching.scala" afterDir="false" />
-    </list>
+    <list default="true" id="f3007524-13e2-4e08-b5a3-0f183a3bbaa7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,22 +62,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2505" height="405" key="GridCell.Tab.0.bottom" timestamp="1586163002530">
+    <state width="2505" height="405" key="GridCell.Tab.0.bottom" timestamp="1586163047282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163002530" />
-    <state width="2505" height="405" key="GridCell.Tab.0.center" timestamp="1586163002530">
+    <state width="2505" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
+    <state width="2505" height="405" key="GridCell.Tab.0.center" timestamp="1586163047282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163002530" />
-    <state width="2505" height="405" key="GridCell.Tab.0.left" timestamp="1586163002530">
+    <state width="2505" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
+    <state width="2505" height="405" key="GridCell.Tab.0.left" timestamp="1586163047282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163002530" />
-    <state width="2505" height="405" key="GridCell.Tab.0.right" timestamp="1586163002530">
+    <state width="2505" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
+    <state width="2505" height="405" key="GridCell.Tab.0.right" timestamp="1586163047282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163002530" />
+    <state width="2505" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
     <state x="915" y="344" key="MultipleFileMergeDialog" timestamp="1586163010078">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
