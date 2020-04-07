@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3007524-13e2-4e08-b5a3-0f183a3bbaa7" name="Default Changelist" comment="" />
+    <list default="true" id="f3007524-13e2-4e08-b5a3-0f183a3bbaa7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunManager" selected="Application.PatternMatching">
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aBqG3QNT7kbzC7SN2qBNzgeqdh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Playground">
     <configuration name="MySimulation" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="playground.MySimulation" />
       <module name="rock-the-jvm-scala-for-beginners" />
@@ -47,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.Playground" />
+      <module name="rock-the-jvm-scala-for-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Playground" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.MySimulation" />
@@ -59,28 +95,39 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3007524-13e2-4e08-b5a3-0f183a3bbaa7" name="Default Changelist" comment="" />
+      <created>1586219236407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586219236407</updated>
+    </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2505" height="405" key="GridCell.Tab.0.bottom" timestamp="1586163047282">
+    <state width="2505" height="405" key="GridCell.Tab.0.bottom" timestamp="1586251068853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
-    <state width="2505" height="405" key="GridCell.Tab.0.center" timestamp="1586163047282">
+    <state width="2505" height="405" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586251068853" />
+    <state width="2505" height="405" key="GridCell.Tab.0.center" timestamp="1586251068853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
-    <state width="2505" height="405" key="GridCell.Tab.0.left" timestamp="1586163047282">
+    <state width="2505" height="405" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586251068853" />
+    <state width="2505" height="405" key="GridCell.Tab.0.left" timestamp="1586251068853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
-    <state width="2505" height="405" key="GridCell.Tab.0.right" timestamp="1586163047282">
+    <state width="2505" height="405" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586251068853" />
+    <state width="2505" height="405" key="GridCell.Tab.0.right" timestamp="1586251068853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163047282" />
+    <state width="2505" height="405" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586251068853" />
     <state x="915" y="344" key="MultipleFileMergeDialog" timestamp="1586163010078">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="915" y="344" key="MultipleFileMergeDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586163010078" />
+    <state x="874" y="481" key="com.intellij.ide.util.TipDialog" timestamp="1586219241368">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="874" y="481" key="com.intellij.ide.util.TipDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586219241368" />
   </component>
 </project>
