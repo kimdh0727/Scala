@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf29623-e859-4a35-8614-05894af0e8bc" name="Default Changelist" comment="" />
+    <list default="true" id="fbf29623-e859-4a35-8614-05894af0e8bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Apple$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Customer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Fruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Function1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Library$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Orange$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Orange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$OutputChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Publication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Queue$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-for-beginners/playground/Playground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/Playground.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +32,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.Playground" />
+      <module name="rock-the-jvm-scala-for-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Playground" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
