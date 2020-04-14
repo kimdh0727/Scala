@@ -57,11 +57,27 @@ t.hour
 trait RationalTrait {
   val numerArg: Int
   val denomArg: Int
+  require(denomArg != 0)
+  private val g = gcd(numerArg, denomArg)
+  val numer = numerArg / g
+  val denom = denomArg / g
+  private def gcd(a: Int, b: Int): Int =
+    if (b == 0) a else gcd(b, a % b)
+  override def toString: String = numer + " / " + denom
 }
 
 new RationalTrait {
-  override val numerArg: Int = 1
-  override val denomArg: Int = 2
+  val numerArg: Int = 1
+  val denomArg: Int = 2
 }
 
-new Rational1(expr)
+//new Rational1(expr)
+
+object Color extends Enumeration {
+  val Red = Value
+  val Green = Value
+  val Blue = Value
+}
+
+Color.Red
+println(Color.Green)
