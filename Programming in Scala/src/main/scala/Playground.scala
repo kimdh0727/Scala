@@ -1,3 +1,3 @@
-class Playground {
+object PlayGround extends App {
 
 }
